@@ -1,5 +1,19 @@
 # Loccalize datetime in mutt's header
 
+## Usage
+
+Find the right binary from [binaries](binaries) and add it into your $PATH.
+In your mutt configuration file, set
+[`display_filter`](http://www.mutt.org/doc/manual/manual-6.html#display_filter)
+variable to the location of the executable, i.e.:
+
+```
+
+set display_filter = "~/opt/bin/localize_mutt"
+
+```
+
+
 ### Setup development environment
 http://golang.org/doc/install
 
@@ -14,15 +28,3 @@ TLTR:
 ### Compile
 
 - go build
-
-## Usage
-
-In your mutt configuration file, set
-[`display_filter`](http://www.mutt.org/doc/manual/manual-6.html#display_filter)
-variable to the location of the executable, i.e.:
-
-```
-
-set display_filter = "~/opt/bin/localize_mutt"
-
-```
