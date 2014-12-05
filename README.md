@@ -19,7 +19,7 @@ TLTR:
 
 In your mutt configuration file, set
 [`display_filter`](http://www.mutt.org/doc/manual/manual-6.html#display_filter)
-variable to the location of the excutable, i.e.:
+variable to the location of the executable, i.e.:
 
 ```
 
