@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-const DT_FORMAT = "Mon, 02 Jan 2006 15:04:05 -0700"
+const DT_FORMAT = "Mon, 2 Jan 2006 15:04:05 -0700"
 const PREFIX = "Date:"
 
 func LocalizeTime(dt string) (string, error) {
